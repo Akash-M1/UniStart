@@ -9,7 +9,7 @@ services:
         # Name of the dockerfile
       dockerfile: Dockerfile
     container_name: node-container
-    image: akashm20/unistart:backend
+    image: unistart:backend
     ports:
         # Host port:Container port
       - '8123:8000'
@@ -20,7 +20,7 @@ services:
         # Name of the dockerfile
       dockerfile: Dockerfile
     container_name: react-container
-    image: akashm20/unistart:frontend
+    image: unistart:frontend
     ports:
       # Host port:Container port
       - '3123:3000'
