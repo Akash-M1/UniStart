@@ -9,7 +9,7 @@ services:
         # Name of the dockerfile
       dockerfile: Dockerfile
     container_name: node-container
-    image: us-central1-docker.pkg.dev/soy-audio-405914/unistart/backend:latest
+    image: akashm20/unistart:backend
     ports:
         # Host port:Container port
       - '8123:8000'
@@ -20,7 +20,7 @@ services:
         # Name of the dockerfile
       dockerfile: Dockerfile
     container_name: react-container
-    image: us-central1-docker.pkg.dev/soy-audio-405914/unistart/frontend:latest
+    image: akashm20/unistart:frontend
     ports:
       # Host port:Container port
       - '3123:3000'
