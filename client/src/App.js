@@ -22,7 +22,7 @@ function App() {
 
       <div className="mt-5 d-flex justify-content-center">
         <Card>
-          <SearchBar url="http://localhost:8000/college-data" parameter_name="college_name" onSearchResults={handleSearchResults} />
+          <SearchBar url="https://api.unistart.online/college-data" parameter_name="college_name" onSearchResults={handleSearchResults} />
         </Card> 
       </div>
 
