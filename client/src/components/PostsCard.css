@@ -1,0 +1,23 @@
+.info-card {
+  background-color: #8fc7e3;
+  color: aliceblue;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.info-card-header {
+  background-color: aliceblue;
+  color: #333;
+  padding: 10px;
+  margin: 0 0 5px 0;
+}
+
+.info-card-title {
+  font-weight: bold;
+}
+
+.info-card-body {
+  overflow-y: scroll;
+  height: 300px;
+}

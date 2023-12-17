@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "soy-audio-405914",
+  "private_key_id": "822dd066647753cddc938a1a2412efee64dfec5c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD1GyVC92Mx/OJI\nifbor2TJ10y5BlsPjbczrwsr22SG6EI/IFKVLBt3vcZfXLVV1DCNgfG28INX/izb\nXGQTYTHsb0zVNPvxTjJ75uoKUjEIYT1w0iGkLAuLNH3UGS9ncSHeeYWw4bWQXz0G\nEAWk6wPWlrh8onXhhUtzsqcdT4kv62yOid9N3eF0S+w1JlzRNH43TCf/WaukxmCR\nAhZHy1l1jfkK7uBx7/5vY8CnHGIRiN+Bme962ruE5gYQ3Xtj9inWu4iXXql7vILv\nmFvfcEwyfB/ukQYzh5S8JvBS1Tv8AUgMfJSmR5J7Af++NP5/Yu/Gm6f0Pg/yFBmB\nfR4r3clLAgMBAAECggEAZ93FAIfNJVXAnnS4iQoqb84o2Q90bzbit6gp17/07aZm\nzFFqLYSvbyKgebDTtzdgC9dREvEA97ziTWLtlbjOax8PNBpr2WoFwrOr4gvKc36h\nhrnFP8jaa3cnC0ZQ7EjozVo56Sb8xd1WAsevXJ+q1LiyHT7LLXJK8xB1+NnHjOIm\npTxn775YZ4fdBD7PntQzjmPh70erhW779T+iaM74WYD/J/sjQPLE/QG5sq9dGWed\nxiigsjmBkmZY1j2ndGWsSEYdqtQYNYKhSFUxkc4ycLoF0BZmDLR6CEr6KbUDAmEi\nPdonwzc/vSZilSqQM6tOS8bWSEjzKoLgS+ZHDxczwQKBgQD6jI4S7x5KhmaLm6dW\nfHMreqH/oB2SNRZCte4Kp5He/fZMLTKau/1i0dltaomyyTvagW0tvnUAU6ayrXAL\nH3YAXMEWRojgILh6R84GVyeopKRfiAJn1MMRs/T2WqPEu/fEkqdV97wNi81+2s9Z\nPWQItHt2VsyLYH/qQ1Vk5jsiyQKBgQD6cEaGwUkLuLAOTRAUQOILEkkupd24DEuz\nxhoh5GylRVLwvOYEoaZNcxN2e23s9i5ZkWPj9qJjEeg97HTe+WtlohKUYGDy+Aap\nrv6QUKWEL6sTmbun9w+q/mo4UC04DsZ5o/lA6xjuh/tRZtWAZwT35Iq75FFe7Xso\n4BJidqdhcwKBgDpodd54HAmnl1RIbxQ8YuTp68YZ34rsEUpv+xREyD7B2Z8ckkV8\nOa/F1/gn8/3X57oinf8h/UicN6pDwHD3XpzrAqBcxR/qwNbQ0nir7LTl3OPgYx8t\nfGQuHZcovjDo2PPcdGIYJKDLzJYcEGZvZ1iYKogF6B0929QS6l9hRLvxAoGBAJB5\nGsZ8VJZVegMWA9ObRouahetKNmkJdtaDzumEbAS/xEQqxQsg8d42J6EvPU/5CO4U\nyKpmynEakH7AnP9Qpdsgr1U3cFZaLQXQdPxt+b4S/b817aLNDRXY5RANeLihFXBw\n3sbLmTtp6Nqh10LWq3ASQNJ5uVNo7qa69QAmcRLvAoGBAPiYd8bFDL2xfVRBzeP4\nOZTkvCcXRJs7AQhxmzEBmk76En3Nkwq1Jw+T1ZLk+eJZmTWDHQINH5C8f1rKDjK8\ndIy58NyKVcVBHQ9dZOpEbUvxM8RKqvxgy+zCJHOhtzFHlkNN/wq3ldx0hc7jqnMu\nB9xhR1ql93L46oHZGE9gfg73\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-language@soy-audio-405914.iam.gserviceaccount.com",
+  "client_id": "116107500112983075833",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-language%40soy-audio-405914.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
