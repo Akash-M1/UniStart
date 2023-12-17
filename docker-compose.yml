@@ -12,7 +12,7 @@ services:
     image: us-central1-docker.pkg.dev/soy-audio-405914/unistart/backend:latest
     ports:
         # Host port:Container port
-      - '8000:8000'
+      - '8123:8000'
   react:
   # Location to the react.js dockerfile
     build: 
@@ -23,5 +23,4 @@ services:
     image: us-central1-docker.pkg.dev/soy-audio-405914/unistart/frontend:latest
     ports:
       # Host port:Container port
-      - '3000:3000'
-    stdin_open: true
+      - '3123:3000'
