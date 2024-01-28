@@ -1,8 +1,15 @@
 const Threads = require('../model/threads');
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 const axios = require('axios')
 
 exports.ratingRender = async (req,res)=>{
     const college_name = req.body.college_name;
+    const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+    const model = genAI.getGenerativeModel({ model: "gemini-pro"});
+    const prompt = `Tell me about ${college_name} college fully in 300 words.`
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const genText = response.text();
     try {
         const threadsByCollegename = await Threads.findOne({name:college_name});
         const resultReviews = [];
@@ -21,6 +28,7 @@ exports.ratingRender = async (req,res)=>{
         return res.status(200).json({
             ratings:finalaverageratings,
             infos:threadsByCollegename.contents,
+            genText:genText
         })
     } catch (error) {
         console.log(error);

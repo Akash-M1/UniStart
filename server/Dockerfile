@@ -1,4 +1,4 @@
-FROM node:21-bullseye
+FROM --platform=linux/amd64 node:21-bullseye
 
 RUN curl https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz > /tmp/google-cloud-sdk.tar.gz
 RUN mkdir -p /usr/local/gcloud

@@ -1,4 +1,4 @@
-FROM node:21-bullseye
+FROM --platform=linux/amd64 node:21-bullseye
 
 WORKDIR /usr/app
 
